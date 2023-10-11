@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set background color to black */
+  color: #fff; /* Set text color to white */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  border-radius: 50%;/* Adjust as needed */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.intro {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+.services {
+  padding: 80px 20px;
+  background-color: black;
+}
+
+.service-card {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.service-card img {
+  width: 80px; /* Adjust icon size as needed */
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.service-card p {
+  font-size: 1.1em;
+}
+
+.about {
+  padding: 80px 20px;
+  background-color: black;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.portfolio {
+  padding: 80px 20px;
+  background-color: black;
+}
+
+.project-card {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.project-card img {
+  max-width: 100%; /* Make sure the image fits within the card */
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.project-card p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background-color: #555;
+}
+
+/* ... (previous styles) ... */
+
+.contact {
+  padding: 80px 20px;
+  background-color: black;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1.1em;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.contact-form h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: black;
+}
